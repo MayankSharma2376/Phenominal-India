@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="col-sm-12 col-md-12">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Phenominal India</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Destinations
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="keraladestination.html">Kerala</a></li>
+                  <li><a class="dropdown-item" href="tamilnadudestinaion.html">Tamil Nadu</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li>
+                    <a class="dropdown-item" href="haryanadestination.html"
+                      >Haryana</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="updestination.html">Uttar Pradesh</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Packages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Family</a></li>
+                  <li><a class="dropdown-item" href="#">Honeymoon</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <!-- <li><a class="dropdown-item" href="#">Winter</a></li>
+                  <li><a class="dropdown-item" href="#">Backwaters</a></li>
+                </ul>
+              </li> --> -->
+              <!-- <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li> -->
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Things to Do</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Best of India</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+            <br />
+            <div class="ms-auto">
+              <a href="signup.html" class="btn btn-outline-light me-2">Sign Up</a>
+              <a href="login.html" class="btn btn-success">Login</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br>
+ 
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card p-4" style="width: 400px;">
+            <h3 class="text-center">Sign Up</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password">
+                </div>
+                <div class="mb-3">
+                    <label for="confirm-password" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm password">
+                </div>
+                <button type="submit" class="btn btn-success w-100">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
